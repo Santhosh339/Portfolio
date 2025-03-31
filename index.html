@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santhosh Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f5c664b249.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#more">More</a></li>
+                    <i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()" style="margin-right: 20px;"></i>
+            </nav>
+            <div class="header-text">
+                <p>Python and Web Developer</p>
+                <h1>Hi, I'm <span id="name">A.Santhosh </span> <br> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ***********about*********** -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/User.png">
+                </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="sub">I am a passionate and driven Artificial Intelligence and Machine Learning engineering student at Sri Krishna Institute of Technology,Bangalore, set to graduate in 2025. My expertise lies in Python, Java, Web Development, Data Science, and Deep Learning, along with hands-on experience in IoT, drone technology, and AI-driven projects. I have developed innovative solutions like a farming assistance chatbot, disease prediction models, and video surveillance systems, showcasing my ability to solve real-world problems using technology. I am particularly interested in AI, ML, and Web Development, with a keen focus on automation and intelligent systems. My strengths include problem-solving, leadership, and teamwork, and I enjoy taking on new challenges that push my creativity and technical skills. With certifications in Microsoft Azure, Blockchain, and RPA, I continuously strive to upskill and stay ahead in emerging technologies. I thrive in collaborative environments and am eager to contribute to dynamic teams working on cutting-edge innovations.</p>
+                             
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick= "opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick=" opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick=" opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Python</span><br>Python developer</li>
+                                    <li><span>Web Developer</span><br>Design Web app Developement</li>
+                                    <li><span>App Developement</span><br>Design Web/App Developement</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Python</span><br>Devloped a abnormall activiity detection using Python. Developer role in the project </li>
+                                    <li><span>Web Developer</span><br>Design Web app of farming assist chatbot</li>
+                                    <li><span>App Developement</span><br>Design Web/App of E-commerece app</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2025</span><br>B.E in AI&ML at Sri Krishna Institue of Technology Bangalore</li>
+                                    <li><span>2021</span><br>Intermidate M.P.C at Sai Sri Chaithanya junior college in Andhra Pradesh </li>
+                                    <li><span>2019</span><br>Schooling at Elena Bettini school in Andhra Pradesh </li>
+                                </ul>
+                            </div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- *********************services********************* -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p class="ser">Web design is the process of creating visually appealing, user-friendly, and functional websites using layout design, color schemes, typography, and interactive elements. 
+                        It involves tools like HTML, CSS, JavaScript, and design software to build responsive and engaging web experiences.</p>
+                        <a href="#" style="text-align: center;">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Developer</h2>
+                    <p class="ser">Using Python The Farming Assist Chatbot is an AI-powered chatbot designed to help farmers with crop management, pest control, and pesticide recommendations. Using Natural Language Processing (NLP), 
+                        the chatbot understands user queries and provides real-time agricultural advice, improving crop health and yield.</p>
+                        <a href="#" style="text-align: center;">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Web/App Design</h2>
+                    <p class="ser">Web design is the process of creating and designing visually appealing, user-friendly, and functional websites. 
+                        It involves a combination of layout design, color schemes, typography, and interactive elements to enhance user experience.
+                        Web designers use tools like HTML, CSS, JavaScript, and design software to craft responsive and engaging websites.</p>
+                        <a href="#" style="text-align: center;">Learn More</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- ************portofolio********* -->
+     <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png" alt="work">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The app connects you to the talented people around the world.
+                            Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png" alt="work">
+                        <div class="layer">
+                            <h3>Farming Assist chatbot App</h3>
+                            <p>The app connects you to the talented people around the world.
+                            Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png" alt="work">
+                        <div class="layer">
+                            <h3>Online shoping App</h3>
+                            <p>The app connects you to the talented people around the world.
+                            Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+     </div>
+     <!-- contact  -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i></i>santhoshalakunta333@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>8688009269</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/santhosh-a-838412310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/santhosh_offical3?igsh=MXUzM2w0a3B4aHRyYg=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/A39Santhosh?t=7RGTIC92PoR9KBikeyclqQ&s=08"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100037048909669&sk=friends"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/Santhosh339"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://youtube.com/@santhosha-t4y?si=d6VPO7ibcdtRYjmz"><i class="fa-brands fa-square-youtube"></i></a>
+                    </div>
+                    <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Santhosh. Made with <i class="fa-solid fa-heart-pulse"></i> frond-end </p>
+        </div>
+      </div>
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const nameElement = document.getElementById("name");
+        setInterval(() => {
+          nameElement.style.color = nameElement.style.color === "green" ? "red" : "green";
+        }, 500); // Changes color every second
+      </script>
+      
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzPkHnrDg4asFDmsBsACp9TQx-PYs-qOaQtmDF2P47-9t8fRY2XGoJ1WJ0cHIRNEycaxA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },500)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
