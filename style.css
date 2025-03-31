@@ -351,11 +351,11 @@ nav .fas{
         font-family: 16px;
     }
     .header-text p{
-        transform: translateY(-30px);
+        transform: translateY(50px);
     }
     .header-text h1{
         font-size: 30px;
-        transform: translateY(-30px);
+        transform: translateY(50px);
     }
     nav .fas{
         display: block;
