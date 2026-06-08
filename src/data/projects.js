@@ -26,7 +26,7 @@ export const projectsData = [
     description: "A high-performance REST API classifying text sentiment (positive/negative/neutral) using a fine-tuned BERT transformer model.",
     tech: ["Python", "FastAPI", "BERT", "Transformers", "PyTorch"],
     categories: ["Machine Learning", "NLP", "Backend Development"],
-    image: "/images/sentiment_analysis.png",
+    image: `${import.meta.env.BASE_URL}images/sentiment_analysis.png`,
     metrics: {
       accuracy: "91% Accuracy",
       responseTime: "150ms latency",
@@ -47,7 +47,7 @@ export const projectsData = [
     description: "Conversational AI system built to guide farmers on crop selection, soil treatment, pest control, and optimal harvesting schedules.",
     tech: ["Python", "NLP", "Transformers", "BERT", "Streamlit"],
     categories: ["NLP", "Full Stack Python", "Generative AI"],
-    image: "/images/farming_assistant.png",
+    image: `${import.meta.env.BASE_URL}images/farming_assistant.png`,
     metrics: {
       accuracy: "93% Intent Match",
       responseTime: "400ms latency",
@@ -68,7 +68,7 @@ export const projectsData = [
     description: "Machine learning system analyzing sensor data (vibrations, temperature, voltage) to predict mechanical equipment failure before it occurs.",
     tech: ["Python", "Scikit-Learn", "Pandas", "NumPy", "Time Series"],
     categories: ["Machine Learning", "Full Stack Python"],
-    image: "/images/predictive_maintenance.png",
+    image: `${import.meta.env.BASE_URL}images/predictive_maintenance.png`,
     metrics: {
       accuracy: "88% Failure Prediction",
       responseTime: "Real-time stream",
@@ -89,7 +89,7 @@ export const projectsData = [
     description: "Statistical and machine learning pipelines predicting seasonal demand curves for warehouse stock optimization.",
     tech: ["Python", "Pandas", "Scikit-Learn", "Statsmodels", "NumPy"],
     categories: ["Machine Learning", "Backend Development"],
-    image: "/images/inventory_forecasting.png",
+    image: `${import.meta.env.BASE_URL}images/inventory_forecasting.png`,
     metrics: {
       accuracy: "90% Forecast Accuracy",
       responseTime: "Batch processing",
@@ -110,7 +110,7 @@ export const projectsData = [
     description: "Web application adjusting quiz difficulty dynamically based on individual student accuracy and history.",
     tech: ["Python", "HTML", "CSS", "PostgreSQL", "FastAPI"],
     categories: ["Backend Development", "Full Stack Python"],
-    image: `${import.meta.env.BASE_URL}images/eduquiz_platform.png",
+    image: `${import.meta.env.BASE_URL}images/eduquiz_platform.png`,
     metrics: {
       accuracy: "95% User Tracking",
       responseTime: "200ms API reload",
@@ -131,40 +131,40 @@ export const projectsData = [
     description: "RESTful architecture for automated attendance, report generation, class scheduling, and student grade tracking.",
     tech: ["Python", "PostgreSQL", "REST APIs", "FastAPI"],
     categories: ["Backend Development"],
-    image: `${ import.meta.env.BASE_URL }images / classroom_management.png",
+    image: `${import.meta.env.BASE_URL}images/classroom_management.png`,
     metrics: {
-    accuracy: "99.5% Uptime",
-    responseTime: "80ms endpoints",
-    keyAchievement: "Automated report generation",
-    vectorDb: "SQL Relational DB"
-  },
-  features: [
-    "Scalable student database management",
-    "PDF & CSV academic performance report export module",
-    "RESTful endpoint routing with authentication validation",
-    "Automated attendance logging system"
-  ],
-  github: "https://github.com/Santhosh339"
-  },
-{
-  id: 8,
-    title: "Preventive Health Care Monitoring Platform",
-      description: "An analytics platform tracking student BMI, heart rates, and exercise logging to flag health issues.",
-        tech: ["Python", "HTML", "CSS", "Flask", "SQL"],
-          categories: ["Full Stack Python"],
-            image: `${import.meta.env.BASE_URL}images/healthcare_monitoring.png`,
-              metrics: {
-    accuracy: "Real-time calculations",
-      responseTime: "100ms load",
-        keyAchievement: "Alert notification triggers",
-          vectorDb: "Local DB SQLite"
-  },
-  features: [
-    "BMI calculators and trends trackers",
-    "Automatic alert triggers when metrics exceed threshold ranges",
-    "Healthy food recommendations tailored to metrics",
-    "Lightweight interactive front-end dashboard"
-  ],
+      accuracy: "99.5% Uptime",
+      responseTime: "80ms endpoints",
+      keyAchievement: "Automated report generation",
+      vectorDb: "SQL Relational DB"
+    },
+    features: [
+      "Scalable student database management",
+      "PDF & CSV academic performance report export module",
+      "RESTful endpoint routing with authentication validation",
+      "Automated attendance logging system"
+    ],
     github: "https://github.com/Santhosh339"
-}
+  },
+  {
+    id: 8,
+    title: "Preventive Health Care Monitoring Platform",
+    description: "An analytics platform tracking student BMI, heart rates, and exercise logging to flag health issues.",
+    tech: ["Python", "HTML", "CSS", "Flask", "SQL"],
+    categories: ["Full Stack Python"],
+    image: `${import.meta.env.BASE_URL}images/healthcare_monitoring.png`,
+    metrics: {
+      accuracy: "Real-time calculations",
+      responseTime: "100ms load",
+      keyAchievement: "Alert notification triggers",
+      vectorDb: "Local DB SQLite"
+    },
+    features: [
+      "BMI calculators and trends trackers",
+      "Automatic alert triggers when metrics exceed threshold ranges",
+      "Healthy food recommendations tailored to metrics",
+      "Lightweight interactive front-end dashboard"
+    ],
+    github: "https://github.com/Santhosh339"
+  }
 ];
