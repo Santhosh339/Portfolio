@@ -65,7 +65,7 @@ const About = () => {
             <div className="absolute -inset-1 bg-gradient-to-r from-primary to-[#ff3b70] rounded-2xl blur opacity-30 group-hover:opacity-60 transition duration-1000 group-hover:duration-200" />
             <div className="relative bg-black rounded-2xl overflow-hidden border border-primary/20">
               <img 
-                src="/images/User.png" 
+                src={`${import.meta.env.BASE_URL}images/User.png`}
                 alt="A. Santhosh" 
                 className="w-full h-auto object-cover filter grayscale hover:grayscale-0 transition-all duration-700 rounded-2xl"
               />
