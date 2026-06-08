@@ -5,7 +5,7 @@ export const projectsData = [
     description: "An intelligent chatbot allowing users to upload large PDF files and query them with semantic search, powered by vector embeddings and open-source LLMs.",
     tech: ["Python", "LangChain", "FAISS", "Hugging Face", "Streamlit"],
     categories: ["Generative AI", "NLP", "Full Stack Python"],
-    image: "/images/rag_chatbot.png",
+    image: `${import.meta.env.BASE_URL}images/rag_chatbot.png`,
     metrics: {
       accuracy: "98% Retrieval",
       responseTime: "Sub-3 sec",
@@ -110,7 +110,7 @@ export const projectsData = [
     description: "Web application adjusting quiz difficulty dynamically based on individual student accuracy and history.",
     tech: ["Python", "HTML", "CSS", "PostgreSQL", "FastAPI"],
     categories: ["Backend Development", "Full Stack Python"],
-    image: "/images/eduquiz_platform.png",
+    image: `${import.meta.env.BASE_URL}images/eduquiz_platform.png",
     metrics: {
       accuracy: "95% User Tracking",
       responseTime: "200ms API reload",
@@ -131,40 +131,40 @@ export const projectsData = [
     description: "RESTful architecture for automated attendance, report generation, class scheduling, and student grade tracking.",
     tech: ["Python", "PostgreSQL", "REST APIs", "FastAPI"],
     categories: ["Backend Development"],
-    image: "/images/classroom_management.png",
+    image: `${ import.meta.env.BASE_URL }images / classroom_management.png",
     metrics: {
-      accuracy: "99.5% Uptime",
-      responseTime: "80ms endpoints",
-      keyAchievement: "Automated report generation",
-      vectorDb: "SQL Relational DB"
-    },
-    features: [
-      "Scalable student database management",
-      "PDF & CSV academic performance report export module",
-      "RESTful endpoint routing with authentication validation",
-      "Automated attendance logging system"
-    ],
-    github: "https://github.com/Santhosh339"
+    accuracy: "99.5% Uptime",
+    responseTime: "80ms endpoints",
+    keyAchievement: "Automated report generation",
+    vectorDb: "SQL Relational DB"
   },
-  {
-    id: 8,
+  features: [
+    "Scalable student database management",
+    "PDF & CSV academic performance report export module",
+    "RESTful endpoint routing with authentication validation",
+    "Automated attendance logging system"
+  ],
+  github: "https://github.com/Santhosh339"
+  },
+{
+  id: 8,
     title: "Preventive Health Care Monitoring Platform",
-    description: "An analytics platform tracking student BMI, heart rates, and exercise logging to flag health issues.",
-    tech: ["Python", "HTML", "CSS", "Flask", "SQL"],
-    categories: ["Full Stack Python"],
-    image: "/images/healthcare_monitoring.png",
-    metrics: {
-      accuracy: "Real-time calculations",
+      description: "An analytics platform tracking student BMI, heart rates, and exercise logging to flag health issues.",
+        tech: ["Python", "HTML", "CSS", "Flask", "SQL"],
+          categories: ["Full Stack Python"],
+            image: `${import.meta.env.BASE_URL}images/healthcare_monitoring.png`,
+              metrics: {
+    accuracy: "Real-time calculations",
       responseTime: "100ms load",
-      keyAchievement: "Alert notification triggers",
-      vectorDb: "Local DB SQLite"
-    },
-    features: [
-      "BMI calculators and trends trackers",
-      "Automatic alert triggers when metrics exceed threshold ranges",
-      "Healthy food recommendations tailored to metrics",
-      "Lightweight interactive front-end dashboard"
-    ],
+        keyAchievement: "Alert notification triggers",
+          vectorDb: "Local DB SQLite"
+  },
+  features: [
+    "BMI calculators and trends trackers",
+    "Automatic alert triggers when metrics exceed threshold ranges",
+    "Healthy food recommendations tailored to metrics",
+    "Lightweight interactive front-end dashboard"
+  ],
     github: "https://github.com/Santhosh339"
-  }
+}
 ];
