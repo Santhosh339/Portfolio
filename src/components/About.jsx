@@ -67,7 +67,7 @@ const About = () => {
               <img 
                 src={`${import.meta.env.BASE_URL}images/User.png`}
                 alt="A. Santhosh" 
-                className="w-full h-auto object-cover filter grayscale hover:grayscale-0 transition-all duration-700 rounded-2xl"
+                className="w-full h-auto object-cover rounded-2xl"
               />
             </div>
           </motion.div>
